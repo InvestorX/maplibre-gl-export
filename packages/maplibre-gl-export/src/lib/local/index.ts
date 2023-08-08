@@ -4,6 +4,7 @@ import finnish from './fi';
 import german from './de';
 import swedish from './sv';
 import spanish from './es';
+import japanese from './ja';
 
 type Translation = {
 	PageSize: string;
@@ -13,4 +14,4 @@ type Translation = {
 	Generate: string;
 };
 
-export { english, french, finnish, german, swedish, spanish, Translation };
+export { english, french, finnish, german, swedish, spanish, japanese,Translation };
